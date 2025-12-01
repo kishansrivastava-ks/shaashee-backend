@@ -1,0 +1,30 @@
+{
+  "id": "ETH001",
+  "name": "Royal Silk Banarasi Saree",
+  "slug": "royal-silk-banarasi-saree",
+  "category": "ethnic",
+  "subCategory": "sarees",
+  "description": "Indulge in timeless elegance with our exquisite handwoven Banarasi silk saree. This masterpiece features intricate traditional zari motifs and a stunning pallu design that showcases the rich heritage of Indian craftsmanship. Perfect for weddings, festivals, and special occasions.",
+  "price": 8999,
+  "currency": "INR",
+  "inStock": true,
+  "stockQuantity": 15,
+  "sku": "LUXE-SAR-001",
+  "images": [
+    "/images/ethnic/ethnic1.jpg",
+    "/images/products/banarasi-saree-2.jpg",
+    "/images/products/banarasi-saree-3.jpg",
+    "/images/products/banarasi-saree-4.jpg"
+  ],
+  "sizes": ["Free Size"],
+  "fabric": "Pure Silk",
+  "work": "Traditional Zari Weaving",
+  "length": "5.5 meters (saree) + 0.8 meters (blouse piece)",
+  "occasion": "Wedding, Festival, Party",
+  "pattern": "Woven Design",
+  "rating": 4.5,
+  "reviews": 124,
+  "badges": ["new"],
+  "createdAt": "2024-12-01T00:00:00Z",
+  "tags": ["silk", "banarasi", "wedding", "traditional"]
+}
