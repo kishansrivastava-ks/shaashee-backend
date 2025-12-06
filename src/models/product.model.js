@@ -60,6 +60,10 @@ const productSchema = new mongoose.Schema(
 
 // text index for search on name/description/tags
 productSchema.index({
+  slug: "text",
+  sku: "text",
+  category: "text",
+  subCategory: "text",
   name: "text",
   description: "text",
   tags: "text",
