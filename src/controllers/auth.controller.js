@@ -48,7 +48,9 @@ exports.signup = async (req, res, next) => {
   const text = `Your verification code is: ${code}. It expires in 15 minutes.`;
   const html = `<p>Your verification code is:</p><h2>${code}</h2><p>It expires in 15 minutes.</p>`;
 
+  console.log("Verification code (for testing):", code);
   await sendEmail({ to: user.email, subject, text, html });
+  console.log("Verification email sent to:", user.email);
 
   res.status(201).json({
     message: "User created. Verification code sent to email.",
